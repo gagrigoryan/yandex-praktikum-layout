@@ -1,0 +1,11 @@
+# Кроме node_modules, сюда так же стоит включить папку dist, где после сборки будут лежать исходники
+# будет еще лучше указать системные папки своих редакторов, например .idea, .vscode
+node_modules
+.idea
+.vscode
+
+# Думаю что не стоить указывать package-lock.json
+package-lock.json
+
+# Project exclude paths
+/dist/
