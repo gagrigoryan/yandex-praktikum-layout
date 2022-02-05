@@ -41,7 +41,7 @@
 
   /*"overlay" не является следующим соседним элементом "auth-form"!*/
   /*Данные стили не будут применятся к элементу.*/
-  .auth-form .overlay {
+  .auth-form + .overlay {
     opacity: 0;
     transition: 0.3s;
   }
